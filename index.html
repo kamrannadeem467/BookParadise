@@ -130,7 +130,7 @@
 <script src="data.js"></script>
 <script>
     const RowData = document.getElementById('RowData');
-    BooksData.map((e)=>{
+    BooksData.slice(0, 8).map((e)=>{
         const finalData = `
         <div class="col-12 col-lg-3 col-sm-6 col-md-4" style="background-color: aliceblue;"> 
     <img class="w-100 py-2" src="${e.image}">
